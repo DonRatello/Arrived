@@ -2,7 +2,28 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:paddingStart="20dp"
+    android:paddingEnd="20dp"
+    android:paddingTop="20dp"
+    android:paddingBottom="20dp">
+    <RadioGroup
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioGroup">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Arrive to DN"
+            android:id="@+id/radioArrToDn" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Arrive to RAIFF"
+            android:id="@+id/radioArrToRaiff" />
+    </RadioGroup>
     <ImageButton
         android:id="@+id/btnSend"
         android:layout_width="wrap_content"
@@ -12,5 +33,13 @@
         android:paddingStart="24dp"
         android:paddingEnd="24dp"
         android:paddingTop="16dp"
-        android:paddingBottom="16dp" />
+        android:paddingBottom="16dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="20dp" />
+    <TextView
+        android:text="Medium Text"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtInfo" />
 </LinearLayout>
