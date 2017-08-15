@@ -6,7 +6,8 @@
     android:paddingStart="20dp"
     android:paddingEnd="20dp"
     android:paddingTop="20dp"
-    android:paddingBottom="20dp">
+    android:paddingBottom="20dp"
+    >
     <RadioGroup
         android:minWidth="25px"
         android:minHeight="25px"
@@ -29,7 +30,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="6dp"
-        android:src="@drawable/Car"
+        android:src="@drawable/Message"
         android:paddingStart="24dp"
         android:paddingEnd="24dp"
         android:paddingTop="16dp"
@@ -37,7 +38,7 @@
         android:layout_gravity="center_horizontal"
         android:layout_marginBottom="20dp" />
     <TextView
-        android:text="Medium Text"
+        android:text=""
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
