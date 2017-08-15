@@ -3,4 +3,5 @@
   <string name="app_name">Arrived</string>
   <string name="msg_dn">Jestem w pracy</string>
   <string name="msg_raiff">Czekam na Ciebie</string>
+  <string name="phone_nmbr"></string>
 </resources>

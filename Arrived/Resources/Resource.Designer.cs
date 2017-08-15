@@ -135,6 +135,9 @@ namespace Arrived
 			// aapt resource value: 0x7f050002
 			public const int msg_raiff = 2131034114;
 			
+			// aapt resource value: 0x7f050003
+			public const int phone_nmbr = 2131034115;
+			
 			static String()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
