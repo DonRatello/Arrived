@@ -45,10 +45,13 @@ namespace Arrived
 		{
 			
 			// aapt resource value: 0x7f020000
-			public const int Car = 2130837504;
+			public const int background = 2130837504;
 			
 			// aapt resource value: 0x7f020001
-			public const int Icon = 2130837505;
+			public const int Car = 2130837505;
+			
+			// aapt resource value: 0x7f020002
+			public const int Icon = 2130837506;
 			
 			static Drawable()
 			{
@@ -64,7 +67,7 @@ namespace Arrived
 		{
 			
 			// aapt resource value: 0x7f060000
-			public const int myButton = 2131099648;
+			public const int btnSend = 2131099648;
 			
 			static Id()
 			{
