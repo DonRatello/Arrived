@@ -83,7 +83,7 @@ namespace Arrived
                     piSent, 
                     piDelivered);
 
-                TxtInfo.Text = ButtonDN.Checked ? msgBuilder.GetMsgArriveToDN() : msgBuilder.GetMsgArriveToRAIFF();
+                TxtInfo.Text = $"{DateTime.Now.ToString("HH:mm:ss")}\n\nMessage sent";
             }
         }
     }
